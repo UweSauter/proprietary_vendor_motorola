@@ -436,3 +436,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so
+
+# MotoSignatureApp
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/sdm660-common/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar
