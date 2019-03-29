@@ -445,3 +445,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sdm660-common/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar
+
+# FM
+PRODUCT_PACKAGES += \
+    FMRadioService \
+    libqcomfm_jni \
+    MotoSignatureApp \
+    qcom.fmradio
+
+PRODUCT_BOOT_JARS += qcom.fmradio
