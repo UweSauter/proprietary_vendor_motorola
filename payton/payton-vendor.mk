@@ -437,6 +437,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so
 
+# FMRadioService
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.software.fmradioservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.software.fmradioservice.xml
+
 # MotoSignatureApp
 PRODUCT_COPY_FILES += \
     vendor/motorola/sdm660-common/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
